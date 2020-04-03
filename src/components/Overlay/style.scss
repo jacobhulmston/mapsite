@@ -1,0 +1,65 @@
+.users-container {
+  position: absolute;
+  right: 5%;
+  transform: translate(-5%, -50%);
+  background: #ffffff;
+  top: 50%;
+  width: 350px;
+  height: auto;
+  z-index: 1;
+  @media only screen and (max-width: 600px) {
+    right: 50%;
+    transform: translate(50%, -50%);
+    top: 55%;
+    width: 75%;
+  }
+
+  h1 {
+    padding: 0 24px 0 24px;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+}
+
+.Users {
+  overflow: overlay;
+  max-height: 70vh;
+}
+
+@keyframes overlay-anim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.close-button-mobile {
+  display: none;
+  @media only screen and (max-width: 600px) {
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 15px;
+    color: #888;
+    transition: all ease-in 1s;
+    display: inline;
+    background: white;
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
+.overlay-anim {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: overlay-anim;
+  opacity: 0;
+  width: 100%;
+}

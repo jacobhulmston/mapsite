@@ -1,0 +1,68 @@
+{
+  "name": "creative-passport",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@createjs/tweenjs": "^2.0.0-beta.4",
+    "@material-ui/core": "^4.9.1",
+    "@tweenjs/tween.js": "^18.4.2",
+    "add": "^2.0.6",
+    "bootstrap": "^4.4.1",
+    "cors": "^2.8.5",
+    "d3": "^5.14.2",
+    "d3-geo": "^1.11.9",
+    "esri": "0.0.1-security",
+    "express": "^4.17.1",
+    "geo": "0.0.3",
+    "mini-signals": "^1.2.0",
+    "node-sass": "^4.13.0",
+    "nouislider": "^14.0.3",
+    "raw.macro": "^0.3.0",
+    "react": "^16.11.0",
+    "react-accessible-accordion": "^3.0.1",
+    "react-bootstrap": "^0.33.0",
+    "react-collapsible": "^2.6.2",
+    "react-dom": "^16.11.0",
+    "react-globe.gl": "^2.4.2",
+    "react-outside-click-handler": "^1.3.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0",
+    "request": "^2.88.2",
+    "slugify": "^1.3.6",
+    "three": "^0.110.0",
+    "three-conic-polygon-geometry": "^1.1.4",
+    "three-geojson-geometry": "^1.0.4",
+    "three-globe": "^2.3.6",
+    "three-glow-mesh": "^0.1.1",
+    "three-render-objects": "^1.9.0",
+    "three-trackballcontrols": "0.0.8",
+    "topojson": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.2",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": " node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

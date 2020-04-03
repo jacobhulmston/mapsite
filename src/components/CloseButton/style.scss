@@ -1,0 +1,54 @@
+.CloseButton {
+  position: absolute;
+  margin: 20px;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+
+  @media only screen and (max-width: 600px) {
+    margin: 0;
+  }
+
+  .close {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(
+      300deg,
+      #ff00b4,
+      #ff6bd3,
+      #82b4dc,
+      #00ffcc,
+      #73ffff
+    );
+    border-radius: 50%;
+    transition: all 1s;
+    z-index: 4;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+    &:hover {
+      cursor: pointer;
+    }
+
+    @media only screen and (max-width: 600px) {
+      font-size: 30px;
+      width: 60px;
+      height: 60px;
+      position: sticky;
+      bottom: 0;
+      right: 0;
+      margin: 20px;
+    }
+  }
+}
