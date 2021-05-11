@@ -1,3 +1,7 @@
+# Project Archived
+
+This project it no longer being developed but is being kept for archival purposes. It will probably contain security vulnerabilities and should not be used.
+
 ### Mycelia for Music - The Creative Passport
 
 A new iniative for Mycelia, The Creative Passport is a personalised ID for MUSIC MAKERS, where they can ACCESS, UPDATE AND MANAGE information about themselves and their works, and share it with others. 
