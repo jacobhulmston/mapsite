@@ -28,11 +28,6 @@ class App extends Component {
         <div className="logocontainer">
           <Link to="/">
             <img className="logo" src={Logo} alt="Creative Passport Logo" />
-            <img
-              className="logoText"
-              src={LogoText}
-              alt="The Creative Passport"
-            />
           </Link>
         </div>
         {routes.map(route => {
